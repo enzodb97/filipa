@@ -16,9 +16,9 @@ const Hero = () => {
           <h1 className='hero-title'>Eleva tus espacios con arte</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='Murales' /> <span>.</span>
-            <TitleSm title='Cuadros' /> <span>.</span>
-            <TitleSm title='Arte' />
+            <TitleSm title='MURALES' /> <span>.</span>
+            <TitleSm title='CUADROS' /> <span>.</span>
+            <TitleSm title='ARTE' />
           </div>
         </div>
       </section>
