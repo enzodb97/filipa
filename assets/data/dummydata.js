@@ -27,13 +27,13 @@ export const expertise = [
     id: 1,
     title: "Murales de interiores",
     cover: "../images/e1.jpeg",
-    desc: [{ text: "Pintura" }, { text: "Pared" }, { text: "Interiores" }, { text: "Acrilicos" }],
+    desc: [{ text: "Crea un ambiente único y personalizado en tu hogar, oficina o negocio con mis murales de interiores. Desde diseños florales, hojas o geometricas al mejor estilo pinterest. " }],
   },
   {
     id: 2,
-    title: "Cuadros",
+    title: "Retratos de Mascotas",
     cover: "../images/e2.jpg",
-    desc: [{ text: "Pintura" }, { text: "Pared" }, { text: "Interiores" }, { text: "Acrilicos" }],
+    desc: [{ text: "Captura la esencia de tu mascota en un retrato personalizado. Mis retratos son creados con amor y atención al detalle para garantizar que sean una representación fiel de tu compañero. " }],
   },
  
 ]

@@ -25,7 +25,7 @@ export const Card = ({ data, caption, show, path }) => {
           {show && (
             <ul>
               {data.desc.map((text, i) => (
-                <li key={i}> - {text.text}</li>
+                <li key={i}> {text.text}</li>
               ))}
             </ul>
           )}
