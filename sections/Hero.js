@@ -15,18 +15,18 @@ const Hero = () => {
           <TitleLogo title='Filipa' className='logobg' />
           <h1 className='hero-title'>Eleva tus espacios con arte</h1>
 
-          <div className='sub-heading'>
-            <TitleSm title='MURALES' /> <span>.</span>
-            <TitleSm title='CUADROS' /> <span>.</span>
-            <TitleSm title='ARTE' />
+          <div className='sub-heading flex'>
+            <TitleSm title='MURALES ' /> <span> . </span>
+            <TitleSm title='CUADROS ' /> <span> . </span>
+            <TitleSm title='ARTE ' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Sobre mi' />
-            <p>Creando espacios en arte.</p>
+            <Title title='Sobre mi'  />
+            <p className="$xl-5">Creando espacios en arte.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (

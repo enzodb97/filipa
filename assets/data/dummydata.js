@@ -6,19 +6,19 @@ import { SlPicture } from "react-icons/sl";
 
 export const home = [
   {
-    icon: <PiPaintBrushBroad size={25} />,
+    icon: <PiPaintBrushBroad size={55} />,
     title: "7+ años creando",
   },
   {
-    icon: <GiStoneWall size={25} />,
+    icon: <GiStoneWall size={45} />,
     title: "50+ muros pintados  ",
   },
   {
-    icon: <SlPicture size={25} />,
+    icon: <SlPicture size={45} />,
     title: "37+ cuadros pintados",
   },
   {
-    icon: <BiUser size={25} />,
+    icon: <BiUser size={45} />,
     title: "50+ clientes confiaron",
   },
 ]
@@ -76,13 +76,13 @@ export const showcase = [
   },
   {
     id: 2,
-    title: "Local indumentaria",
+    title: "Salón de Eventos, Verónica Vera",
     catgeory: "Mural",
     cover: "../images/p2.jpeg",
   },
   {
     id: 3,
-    title: "Pileta hotel",
+    title: "Quincho 'El encuentro'",
     cover: "../images/p3.jpeg",
     catgeory: "Mural",
   },
@@ -100,8 +100,38 @@ export const showcase = [
   },
   {
     id: 6,
-    title: "Retrato mascota",
+    title: "El retrato de Tori",
     cover: "../images/p6.jpg",
+    catgeory: "Retrato	",
+  },
+  {
+    id: 7,
+    title: "Vidriera local de niños",
+    cover: "../images/blog5.jpeg",
+    catgeory: "Mural	",
+  },
+  {
+    id: 8,
+    title: "Vidriera local de Indumentaria",
+    cover: "../images/blog6.jpeg",
+    catgeory: "Mural	",
+  },
+  {
+    id: 9,
+    title: "La habitación de Bianca",
+    cover: "../images/blog7.jpeg",
+    catgeory: "Mural	",
+  },
+  {
+    id: 10,
+    title: "Salón de Belleza y Estética 'Dana´s'",
+    cover: "../images/blog8.jpeg",
+    catgeory: "Mural	",
+  },
+  {
+    id: 11,
+    title: "El retrato de Toti",
+    cover: "../images/blog9.jpeg",
     catgeory: "Retrato	",
   },
 ]

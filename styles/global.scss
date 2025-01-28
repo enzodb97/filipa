@@ -31,6 +31,11 @@
   .sub-heading {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start
+  }
     .titleSm {
       margin: 0 $xl-1;
     }
@@ -40,7 +45,7 @@
       color: $green;
     }
   }
-}
+
 .hero-sec {
   position: relative;
   &::before {
@@ -164,6 +169,10 @@ footer {
     line-height: 0;
     padding-top: $xl-1;
     margin-bottom: $xll;
+  }
+  .logo{
+    background-image:  url("../public/favicon.ico");
+    
   }
   h3 {
     font-weight: 400;

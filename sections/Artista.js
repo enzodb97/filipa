@@ -33,7 +33,7 @@ Te ayudo a plasmar tu idea en el rincón que desees' className='title-bg' />
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/s1.jpeg' alt='Img' className='round' width='100%' height='80%' />
+              <img src='/images/s1.jpeg' alt='Img' className='round' width='90%' height='100%' />
             </div>
           </div>
 
