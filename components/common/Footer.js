@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+54 9 3876 434135</h3>              
+              <Link href={"http://wa.me/+5493876434135"}>+54 9 3876 434135</Link>              
             </div>
             <ul>
               <h3>Links</h3>
@@ -52,11 +52,7 @@ const Footer = () => {
             <ul>
               <h3>Redes sociales</h3>
               <div className='connect'>
-                <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
-                  </Link>
-                </li>
+                
                 
                 <li>
                   <Link href='https://www.instagram.com/filipa.painting' target="blank_">
@@ -64,11 +60,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 
-                <li>
-                  <Link href='/'>
-                    <AiOutlineWhatsApp size={25} />
-                  </Link>
-                </li>
+               
               </div>
             </ul>
           </div>
